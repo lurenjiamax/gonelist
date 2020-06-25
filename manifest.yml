@@ -1,0 +1,6 @@
+---
+applications:
+ - name: ((os.VCAP_APPLICATION['application_name']))
+   random-route: true
+   buildpacks: 
+   - go_buildpack
